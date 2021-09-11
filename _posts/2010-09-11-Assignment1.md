@@ -1,3 +1,3 @@
 ---
-permalink: /Assignment1
+permalink: /CS5520/Assignment1
 ---
