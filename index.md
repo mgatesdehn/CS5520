@@ -3,7 +3,7 @@ layout: default
 title: CS5520
 ---
 # {{ page.title }}
-	changed
+	changedd
 <ul class="posts">
 
 	  {% for post in site.posts %}
