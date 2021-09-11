@@ -1,3 +1,0 @@
----
-permalink: /Assignment1
----
