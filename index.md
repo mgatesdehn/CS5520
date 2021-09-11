@@ -2,7 +2,7 @@
 layout: default
 title: CS5520
 ---
-{{ page.title }}
+# {{ page.title }}
 	
 <ul class="posts">
 
