@@ -2,10 +2,9 @@
 layout: default
 title: CS5520
 ---
-blah blah blah
-
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+{{ page.title }}
+	
+<ul class="posts">
 
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
