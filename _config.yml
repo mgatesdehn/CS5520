@@ -1,2 +1,4 @@
 name: CS5520
 permalink: /:title
+
+theme: jekyll-theme-cayman
