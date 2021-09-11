@@ -4,7 +4,7 @@ title: CS6620
 ---
 blah blah blah
 
-<h1>{{ page.title }}</h1>
+	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 
 	  {% for post in site.posts %}
