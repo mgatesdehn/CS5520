@@ -2,8 +2,6 @@
 layout: default
 title: CS5520
 ---
-# {{ page.title }}
-	
 <ul class="posts">
 
 	  {% for post in site.posts %}
