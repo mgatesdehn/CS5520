@@ -69,6 +69,7 @@ You see the statement "MainActivity layout is complete" in the Logcat pane if th
 ![2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/2.png)\
 ![3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/3.png)\
 ![4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/4.png)\
+
 Question 1\
 Which two layout constraint attributes on the Zero Button position it vertically equal distance between the other two Button elements? (Pick 2 answers.)
 
