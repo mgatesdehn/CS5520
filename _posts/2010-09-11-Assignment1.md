@@ -13,7 +13,7 @@ layout: posts
 - Log statements can be added that can help in debugging.
 
 #### Homework:
-Question 1
+Question 1\
 What is the name of the layout file for the main activity?
 
 > MainActivity.java\
@@ -21,7 +21,7 @@ What is the name of the layout file for the main activity?
     **activity_main.xml**\
     build.gradle\
 
-Question 2
+Question 2\
 What is the name of the string resource that specifies the application's name?
 
 > **app_name**\
@@ -29,7 +29,7 @@ What is the name of the string resource that specifies the application's name?
     android:name\
     applicationId\
 
-Question 3
+Question 3\
 Which tool do you use to create a new emulator?
 
 >Android Device Monitor\
@@ -37,7 +37,7 @@ Which tool do you use to create a new emulator?
     SDK Manager\
     Theme Editor\
 
-Question 4
+Question 4\
 Assume that your app includes this logging statement:
 `Log.i("MainActivity", "MainActivity layout is complete");`
 You see the statement "MainActivity layout is complete" in the Logcat pane if the Log level menu is set to which of the following? (Hint: multiple answers are OK.)
@@ -69,7 +69,7 @@ You see the statement "MainActivity layout is complete" in the Logcat pane if th
 ![2](/_posts/Assignment1/2.png)
 ![3](/_posts/Assignment1/3.png)
 ![4](/_posts/Assignment1/4.png)
-Question 1
+Question 1\
 Which two layout constraint attributes on the Zero Button position it vertically equal distance between the other two Button elements? (Pick 2 answers.)
 
 > **app:layout_constraintBottom_toTopOf="@+id/button_count"**\
@@ -78,7 +78,7 @@ Which two layout constraint attributes on the Zero Button position it vertically
     **app:layout_constraintTop_toBottomOf="@+id/button_toast"**\
     android:layout_marginTop="8dp"\
 
-Question 2
+Question 2\
 Which layout constraint attribute on the Zero Button positions it horizontally in alignment with the other two Button elements?
 
 > **app:layout_constraintLeft_toLeftOf="parent"**\
@@ -86,7 +86,7 @@ Which layout constraint attribute on the Zero Button positions it horizontally i
     android:layout_marginBottom="8dp"\
     app:layout_constraintTop_toBottomOf="@+id/button_toast"\
 
-Question 3
+Question 3\
 What is the correct signature for a method used with the android:onClick XML attribute?
 
 > public void callMethod()\
@@ -94,7 +94,7 @@ What is the correct signature for a method used with the android:onClick XML att
     private void callMethod(View view)\
     public boolean callMethod(View view)\
 
-Question 4
+Question 4\
 The click handler for the Count Button starts with the following method signature:
 
     public void countUp(View view)
@@ -114,21 +114,21 @@ Which of the following techniques is more efficient to use within this handler t
 #### Homework
 ![1_3_hw](/_posts/Assignment1/1_3_hw.png)
 
-Question 1
+Question 1\
 How many views can you use within a ScrollView? Choose one:
 
 > One view only\
     **One view or one view group**\
     As many as you need\
 
-Question 2
+Question 2\
 Which XML attribute do you use in a LinearLayout to show views side by side? Choose one:
 
 > **android:orientation="horizontal"**\
     android:orientation="vertical"\
     android:layout_width="wrap_content"\
 
-Question 3
+Question 3\
 Which XML attribute do you use to define the width of the LinearLayout inside the scrolling view? Choose one:
 
 > android:layout_width="wrap_content"\
