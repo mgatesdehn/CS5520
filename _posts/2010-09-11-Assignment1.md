@@ -5,7 +5,7 @@ layout: posts
 # Hello Mad
 
 ## Lesson 1.1 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_1))
-![SS1_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_1.png)\
+![SS1_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_1.png)
 
 #### What I learned:
 - Android uses XML files for defining most of its features.
@@ -50,14 +50,14 @@ You see the statement "MainActivity layout is complete" in the Logcat pane if th
     Assert\
 
 ## Lesson 1.2A - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_2))
-![SS1_2A](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_2A.png)\
+![SS1_2A](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_2A.png)
 #### What I learned:
 - Android Studio has a convenient visual layout manager.
 - It's best practice to define strings in the resources folder.
 - Button Handlers
 
 ## Lesson 1.2B - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_2))
-![linear](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/linear.png)\
+![linear](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/linear.png)
 ![relative](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/relative.png)
 
 #### What I learned:
@@ -66,10 +66,10 @@ You see the statement "MainActivity layout is complete" in the Logcat pane if th
 - LinearLayout and RelativeLayout ViewGroups.
 
 #### Homework:
-![1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1.png)\
-![2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/2.png)\
-![3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/3.png)\
-![4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/4.png)\
+![1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1.png)
+![2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/2.png)
+![3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/3.png)
+![4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/4.png)
 
 Question 1\
 Which two layout constraint attributes on the Zero Button position it vertically equal distance between the other two Button elements? (Pick 2 answers.)
@@ -107,14 +107,14 @@ Which of the following techniques is more efficient to use within this handler t
     **Use the view parameter that is passed to the click handler with setBackgroundColor(): view.setBackgroundColor()**
 
 ## Lesson 1.3 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_3))
-![1_3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_3.png)\
-![1_3_2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_3_2.png)\
+![1_3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_3.png)
+![1_3_2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_3_2.png)
 #### What I learned:
 - How to use ScrollViews
 - Nesting ViewGroups
 
 #### Homework
-![1_3_hw](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_3_hw.png)\
+![1_3_hw](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_3_hw.png)
 
 Question 1\
 How many views can you use within a ScrollView? Choose one:
