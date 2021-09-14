@@ -7,7 +7,6 @@ layout: posts
 ## Lesson 1.1 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_1))
 ![SS1_1](/images/Assignment1/1_1.png)
 <img src="/images/Assignment1/1_1.PNG" alt="test" class="inline"/>
-blah
 #### What I learned:
 - Android uses XML files for defining most of its features.
 - Gradle is used for building projects.
