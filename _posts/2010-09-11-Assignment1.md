@@ -73,7 +73,7 @@ You see the statement "MainActivity layout is complete" in the Logcat pane if th
 
 Question 1\
 Which two layout constraint attributes on the Zero Button position it vertically equal distance between the other two Button elements? (Pick 2 answers.)\
-The constraints determine location. The margins determine spacing.\
+The constraints determine location. The margins determine spacing.
 
 > app:layout_constraintBottom_toTopOf="@+id/button_count"\
     **android:layout_marginBottom="8dp"**\
