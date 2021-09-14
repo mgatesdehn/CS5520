@@ -4,7 +4,7 @@ layout: posts
 
 # Hello Mad
 
-## Lesson 1.1 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_1))
+## Lesson 1.1 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/lesson1_1))
 ![SS1_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_1.png)
 
 #### What I learned:
@@ -49,14 +49,14 @@ You see the statement "MainActivity layout is complete" in the Logcat pane if th
     Error\
     Assert\
 
-## Lesson 1.2A - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_2))
+## Lesson 1.2A - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/lesson1_2))
 ![SS1_2A](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_2A.png)
 #### What I learned:
 - Android Studio has a convenient visual layout manager.
 - It's best practice to define strings in the resources folder.
 - Button Handlers
 
-## Lesson 1.2B - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_2))
+## Lesson 1.2B - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/lesson1_2))
 ![linear](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/linear.png)
 ![relative](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/relative.png)
 
@@ -106,7 +106,7 @@ Which of the following techniques is more efficient to use within this handler t
 > Use findViewById to find the Count Button. Assign the result to a View variable, and then use setBackgroundColor().\
     **Use the view parameter that is passed to the click handler with setBackgroundColor(): view.setBackgroundColor()**
 
-## Lesson 1.3 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_3))
+## Lesson 1.3 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/lesson1_3))
 ![1_3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_3.png)
 ![1_3_2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_3_2.png)
 #### What I learned:
