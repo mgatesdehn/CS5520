@@ -19,7 +19,7 @@ What is the name of the layout file for the main activity?
 > MainActivity.java\
     AndroidManifest.xml\
     **activity_main.xml**\
-    build.gradle\
+    build.gradle
 
 Question 2\
 What is the name of the string resource that specifies the application's name?
@@ -27,7 +27,7 @@ What is the name of the string resource that specifies the application's name?
 > **app_name**\
     xmlns:app\
     android:name\
-    applicationId\
+    applicationId
 
 Question 3\
 Which tool do you use to create a new emulator?
@@ -35,7 +35,7 @@ Which tool do you use to create a new emulator?
 >Android Device Monitor\
     **AVD Manager** \
     SDK Manager\
-    Theme Editor\
+    Theme Editor
 
 Question 4\
 Assume that your app includes this logging statement:
@@ -47,7 +47,7 @@ You see the statement "MainActivity layout is complete" in the Logcat pane if th
     **Info**\
     Warn\
     Error\
-    Assert\
+    Assert
 
 ## Lesson 1.2A - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/lesson1_2))
 ![SS1_2A](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_2A.png)
@@ -78,7 +78,7 @@ Which two layout constraint attributes on the Zero Button position it vertically
     android:layout_marginBottom="8dp"\
     android:layout_marginStart="16dp"\
     **app:layout_constraintTop_toBottomOf="@+id/button_toast"**\
-    android:layout_marginTop="8dp"\
+    android:layout_marginTop="8dp"
 
 Question 2\
 Which layout constraint attribute on the Zero Button positions it horizontally in alignment with the other two Button elements?
@@ -86,7 +86,7 @@ Which layout constraint attribute on the Zero Button positions it horizontally i
 > **app:layout_constraintLeft_toLeftOf="parent"**\
     app:layout_constraintBottom_toTopOf="@+id/button_count"\
     android:layout_marginBottom="8dp"\
-    app:layout_constraintTop_toBottomOf="@+id/button_toast"\
+    app:layout_constraintTop_toBottomOf="@+id/button_toast"
 
 Question 3\
 What is the correct signature for a method used with the android:onClick XML attribute?
@@ -121,21 +121,21 @@ How many views can you use within a ScrollView? Choose one:
 
 > One view only\
     **One view or one view group**\
-    As many as you need\
+    As many as you need
 
 Question 2\
 Which XML attribute do you use in a LinearLayout to show views side by side? Choose one:
 
 > **android:orientation="horizontal"**\
     android:orientation="vertical"\
-    android:layout_width="wrap_content"\
+    android:layout_width="wrap_content"
 
 Question 3\
 Which XML attribute do you use to define the width of the LinearLayout inside the scrolling view? Choose one:
 
 > android:layout_width="wrap_content"\
     **android:layout_width="match_parent"**\
-    android:layout_width="200dp"\
+    android:layout_width="200dp"
 
 
 
