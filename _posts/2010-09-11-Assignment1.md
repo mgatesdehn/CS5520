@@ -58,7 +58,8 @@ You see the statement "MainActivity layout is complete" in the Logcat pane if th
 
 ## Lesson 1.2B - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_2))
 ![linear](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/linear.png)\
-![relative](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/relative.png)\
+![relative](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/relative.png)
+
 #### What I learned:
 - Creating layout variants for horizontal layouts, tablets etc.
 - Align baselines to align views that have text.
