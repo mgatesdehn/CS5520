@@ -5,7 +5,7 @@ layout: posts
 # Hello Mad
 
 ## Lesson 1.1 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment1/Lesson1_1))
-![SS1_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1.png)
+![SS1_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/1_1.png)
 <img src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg" alt="test"/>
 
 #### What I learned:
