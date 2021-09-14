@@ -72,13 +72,14 @@ You see the statement "MainActivity layout is complete" in the Logcat pane if th
 ![4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment1/4.png)
 
 Question 1\
-Which two layout constraint attributes on the Zero Button position it vertically equal distance between the other two Button elements? (Pick 2 answers.)
+Which two layout constraint attributes on the Zero Button position it vertically equal distance between the other two Button elements? (Pick 2 answers.)\
+The constraints determine location. The margins determine spacing.\
 
-> **app:layout_constraintBottom_toTopOf="@+id/button_count"**\
-    android:layout_marginBottom="8dp"\
+> app:layout_constraintBottom_toTopOf="@+id/button_count"\
+    **android:layout_marginBottom="8dp"**\
     android:layout_marginStart="16dp"\
-    **app:layout_constraintTop_toBottomOf="@+id/button_toast"**\
-    android:layout_marginTop="8dp"
+    app:layout_constraintTop_toBottomOf="@+id/button_toast"\
+    **android:layout_marginTop="8dp"**
 
 Question 2\
 Which layout constraint attribute on the Zero Button positions it horizontally in alignment with the other two Button elements?
