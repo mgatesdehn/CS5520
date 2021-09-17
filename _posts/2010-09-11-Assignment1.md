@@ -38,12 +38,12 @@ Which tool do you use to create a new emulator?
     Theme Editor
 
 Question 4\
-Assume that your app includes this logging statement:
-`Log.i("MainActivity", "MainActivity layout is complete");`
+Assume that your app includes this logging statement:\
+`Log.i("MainActivity", "MainActivity layout is complete");`\
 You see the statement "MainActivity layout is complete" in the Logcat pane if the Log level menu is set to which of the following? (Hint: multiple answers are OK.)
 
 > **Verbose**\
-    Debug\
+    **Debug**\
     **Info**\
     Warn\
     Error\
