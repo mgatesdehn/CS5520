@@ -64,10 +64,10 @@ Which Activity lifecycle methods are best to use for saving data before the Acti
     onStart() or onRestart()
 
 ## Lesson 2.3 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment2/lesson2_3))
-![SS3_2_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/3_2_1.png)\
-![SS3_2_2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/3_2_2.png)\
-![SS3_2_3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/3_2_3.png)\
-![SS3_2_4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/3_2_4.png)
+![SS3_2_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_3_1.png)\
+![SS3_2_2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_3_2.png)\
+![SS3_2_3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_3_3.png)\
+![SS3_2_4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_3_4.png)
 
 #### What I learned:
 - How to use implicit intents to perform external actions (open url, map location, send text).
