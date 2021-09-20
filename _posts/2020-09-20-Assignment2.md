@@ -5,13 +5,13 @@ layout: posts
 # A2
 
 ## Lesson 2.1 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment2/lesson2_1))
-![SS2_1_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_1_1.png)
-![SS2_1_2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_1_2.png)
-![SS2_1_3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_1_3.png)
-![SS2_1_4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_1_4.png)
-![SS2_1_5](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_1_5.png)
-![SS2_1_6](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_1_6.png)
-![SS2_1_7](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_1_7.png)
+![SS2_1_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_1_1.png)\
+![SS2_1_2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_1_2.png)\
+![SS2_1_3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_1_3.png)\
+![SS2_1_4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_1_4.png)\
+![SS2_1_5](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_1_5.png)\
+![SS2_1_6](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_1_6.png)\
+![SS2_1_7](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_1_7.png)
 
 #### What I learned:
 - Using Intent to start another activity
@@ -19,17 +19,17 @@ layout: posts
 - Receiving data back from a started activity
 
 ## Lesson 2.2 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment2/lesson2_2))
-![SS2_2_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_2_1.png)
-![SS2_2_2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_2_2.png)
-![SS2_2_3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_2_3.png)
+![SS2_2_1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_2_1.png)\
+![SS2_2_2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_2_2.png)\
+![SS2_2_3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_2_3.png)
 
 #### What I learned:
 - What the lifecycle of an activity is and when the callbacks are called.
 - How to retain instance information when a configuration is changed and the activity destroyed.
 
 #### Homework
-![SS2_2_4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_2_4.png)
-![SS2_2_5](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/SS2_2_5.png)
+![SS2_2_4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_2_4.png)\
+![SS2_2_5](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment2/2_2_5.png)
 
 Question 1\
 If you run the homework app before implementing onSaveInstanceState(), what happens if you rotate the device? Choose one:
