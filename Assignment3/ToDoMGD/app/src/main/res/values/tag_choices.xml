@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tag_array">
+        <item>Work</item>
+        <item>School</item>
+        <item>Climbing</item>
+        <item>Training</item>
+    </string-array>
+</resources>
