@@ -23,8 +23,7 @@ layout: posts
 - Save button to save edits
 
 ## Deploy to App Store (closed testing):
-Join Closed Test:
-https://play.google.com/store/apps/details?id=edu.neu.khoury.madsea.matthewgatesdehn
+[Join Closed Test](https://play.google.com/store/apps/details?id=edu.neu.khoury.madsea.matthewgatesdehn)
 
 ## What I learned:
 - Use of a singleton to store data
