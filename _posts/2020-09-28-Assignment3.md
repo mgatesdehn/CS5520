@@ -23,7 +23,8 @@ layout: posts
 - Save button to save edits
 
 ## Deploy to App Store (closed testing):
-- Currently 'in review' (Initial release 9/27. Final A3 release 9/28).
+Join Closed Test:
+https://play.google.com/store/apps/details?id=edu.neu.khoury.madsea.matthewgatesdehn
 ![SS6](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment3/publish1.png)\
 ![SS7](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment3/publish2.png)
 
