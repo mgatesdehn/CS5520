@@ -25,8 +25,6 @@ layout: posts
 ## Deploy to App Store (closed testing):
 Join Closed Test:
 https://play.google.com/store/apps/details?id=edu.neu.khoury.madsea.matthewgatesdehn
-![SS6](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment3/publish1.png)\
-![SS7](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment3/publish2.png)
 
 ## What I learned:
 - Use of a singleton to store data
