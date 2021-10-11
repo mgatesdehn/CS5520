@@ -7,7 +7,7 @@ layout: posts
 ![SS2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/2.png)\
 ![SS3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/3.png)\
 ![SS4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/4.png)
-<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment3/4.png" width="200"/>
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/4.png" width="500"/>
 
 ## Features:
 - Retains data locally in database. Restores data when app is restarted.
