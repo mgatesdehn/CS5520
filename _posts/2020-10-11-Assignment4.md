@@ -23,6 +23,7 @@ layout: posts
 - Retains data locally in database. Restores data when app is restarted.
 - Single activity, multi-fragment design using NavController
 - Recommended architecture with ViewModel and Repository
+
 ##### Task List Screen
 - Add new task (green circle with '+' symbol)
 - Checkbox task complete
