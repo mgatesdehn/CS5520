@@ -6,8 +6,22 @@ layout: posts
 ![SS1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/1.png)\
 ![SS2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/2.png)\
 ![SS3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/3.png)\
-![SS4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/4.png)
-<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/4.png" width="500"/>
+![SS4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/4.png)\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/1.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/2.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/3.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/4.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/5.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/6.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/7.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/8.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/9.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/10.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/11.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/12.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/13.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/14.png" width="300"/>\
+<img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/15.png" width="300"/>
 
 ## Features:
 - Retains data locally in database. Restores data when app is restarted.
