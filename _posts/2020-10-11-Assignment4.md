@@ -3,10 +3,6 @@ layout: posts
 ---
 
 # A4 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment4))
-![SS1](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/1.png)\
-![SS2](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/2.png)\
-![SS3](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/3.png)\
-![SS4](https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/4.png)\
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/1.png" width="300"/>\
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/2.png" width="300"/>\
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment4/3.png" width="300"/>\
