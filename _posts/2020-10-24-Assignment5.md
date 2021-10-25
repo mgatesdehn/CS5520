@@ -3,15 +3,19 @@ layout: posts
 ---
 
 # A4 - ([GitHub](https://github.com/mgatesdehn/CS5520/tree/main/Assignment5))
+Create notification that will go off next minute:\
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment5/1.png" width="300"/>\
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment5/2.png" width="300"/>\
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment5/3.png" width="300"/>\
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment5/4.png" width="300"/>\
+Edit notification so it goes off next minute:
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment5/5.png" width="300"/>\
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment5/6.png" width="300"/>\
+Edit notification so that it deletes the notification:
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment5/7.png" width="300"/>\
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment5/8.png" width="300"/>\
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment5/9.png" width="300"/>\
+Notification doesn't go off because we disabled it:
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/Assignment5/10.png" width="300"/>
 
 ## New Features:
