@@ -5,15 +5,18 @@ layout: posts
 # Final Project Proposal
 ## Proposed Features
 ### Add filtering by tags
-The user may wish to see or manage only todos relevant to a specific topic (ie School or Work). I will implement a filtering function that displays only todos with the selected tag/s.\
+The user may wish to see or manage only todos relevant to a specific topic (ie School or Work). I will implement a filtering function that displays only todos with the selected tag/s.
+
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/FinalProjectProposal/filterIcon.png" width="300"/>
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/FinalProjectProposal/filterlist.png" width="300"/>\
 ###  Add Location / Map for Todos
-If the todo has a relevant location, for example a meeting place, it may be useful to track that as part of the todo. I will add a location field and relevant UI elements.\
+If the todo has a relevant location, for example a meeting place, it may be useful to track that as part of the todo. I will add a location field and relevant UI elements.
+
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/FinalProjectProposal/Locationbutton.png" width="300"/>
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/FinalProjectProposal/LocationMap.png" width="300"/>\
 ###  Reorder todos
-Sometimes it is useful to create a custom prioritization by rearranging the todo items. I will add support for dragging todos to reorder them.\
+Sometimes it is useful to create a custom prioritization by rearranging the todo items. I will add support for dragging todos to reorder them.
+
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/FinalProjectProposal/moving.png" width="300"/>
 <img src="https://raw.githubusercontent.com/mgatesdehn/CS5520/gh-pages/images/FinalProjectProposal/moved.png" width="300"/>\
 
