@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewmodel"
+            type="edu.neu.khoury.madsea.matthewgatesdehn.ToDoViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".EditTaskFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/element_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/edit_title_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="-3dp"
+                    android:fontFamily="@font/edit_textbox_labels"
+                    android:text="@string/title"
+                    android:textColor="@color/edit_textbox_labels" />
+
+                <EditText
+                    android:id="@+id/title_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/text_background"
+                    android:ems="10"
+                    android:fontFamily="@font/text"
+                    android:hint="@string/task_title_text_hint"
+                    android:inputType="textShortMessage"
+                    android:textColorHint="@color/edit_hint"
+                    android:textColor="@color/edit_text"
+                    android:padding="5dp"
+                    android:paddingBottom="7dp"
+                    android:text="@{viewmodel.editToDo.title}"
+                    app:dispatchOnLoseFocus="@{() -> viewmodel.editToDo.setTitle(titleEditText.getText().toString())}" />
+
+                <TextView
+                    android:id="@+id/edit_description_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="-3dp"
+                    android:fontFamily="@font/edit_textbox_labels"
+                    android:text="@string/description"
+                    android:textColor="@color/edit_textbox_labels" />
+
+                <EditText
+                    android:id="@+id/description_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/text_background"
+                    android:ems="10"
+                    android:fontFamily="@font/text"
+                    android:hint="@string/task_description_text_hint"
+                    android:inputType="textLongMessage|textMultiLine"
+                    android:padding="5dp"
+                    android:paddingBottom="7dp"
+                    android:singleLine="false"
+                    android:text="@{viewmodel.editToDo.description}"
+                    android:textAlignment="textStart"
+                    android:textColorHint="@color/edit_hint"
+                    app:dispatchOnLoseFocus="@{() -> viewmodel.editToDo.setDescription(descriptionEditText.getText().toString())}" />
+
+                <TextView
+                    android:id="@+id/edit_location_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="-8dp"
+                    android:fontFamily="@font/edit_textbox_labels"
+                    android:text="@string/location"
+                    android:textColor="@color/edit_textbox_labels" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/location_edit_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/task_location_text_hint"
+                        android:fontFamily="@font/text"
+                        android:background="@color/text_background"
+                        android:textColorHint="@color/edit_hint"
+                        android:padding="5dp"
+                        android:paddingBottom="7dp"
+                        android:inputType="textLongMessage"
+                        android:text="@{viewmodel.editToDo.location}"
+                        app:dispatchOnLoseFocus="@{() -> viewmodel.editToDo.setLocation(locationEditText.getText().toString())}"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/maps_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/maps_button_text"
+                        android:fontFamily="@font/button"
+                        android:singleLine="true"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/edit_tag_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="-8dp"
+                    android:fontFamily="@font/edit_textbox_labels"
+                    android:text="@string/tags"
+                    android:textColor="@color/edit_textbox_labels" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/addTagEditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/text"
+                        android:background="@color/text_background"
+                        android:textColorHint="@color/edit_hint"
+                        android:padding="5dp"
+                        android:paddingBottom="7dp"
+                        android:hint="Add Tag"
+                        android:inputType="textShortMessage" />
+
+                    <Button
+                        android:id="@+id/add_tag_button"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_baseline_add_24" />
+                </LinearLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:id="@+id/tag_holder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:flexWrap="wrap">
+
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <TextView
+                    android:id="@+id/edit_duedate_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="-3dp"
+                    android:fontFamily="@font/edit_textbox_labels"
+                    android:text="@string/due_date"
+                    android:textColor="@color/edit_textbox_labels" />
+
+                <EditText
+                    android:id="@+id/due_date_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:fontFamily="@font/date"
+                    android:hint="@string/due_date_text_hint"
+                    android:inputType="none"
+                    app:formatAndDisplayDate="@{viewmodel.editToDo.getDueDate()}"
+                    android:background="@color/text_background"
+                    android:textColorHint="@color/edit_hint"
+                    android:padding="5dp"
+                    android:paddingBottom="7dp"/>
+
+                <CheckBox
+                    android:id="@+id/remind_me_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:checked="@{viewmodel.editToDo.isRemindMe()}"
+                    android:buttonTint="@color/checkbox"
+                    android:text="@string/remind_me_checkbox_text" />
+
+                <TextView
+                    android:id="@+id/edit_remindme_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="-3dp"
+                    android:fontFamily="@font/edit_textbox_labels"
+                    android:text="@string/remind_me_date"
+                    android:textColor="@color/edit_textbox_labels" />
+
+                <EditText
+                    android:id="@+id/remind_me_date_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:enabled="@{viewmodel.editToDo.isRemindMe()}"
+                    android:focusable="false"
+                    android:hint="@string/remind_me_date_hint_text"
+                    android:fontFamily="@font/date"
+                    android:inputType="none"
+                    app:formatAndDisplayDate="@{viewmodel.editToDo.getRemindMeDate()}"
+                    android:background="@color/text_background"
+                    android:textColorHint="@color/edit_hint"
+                    android:padding="5dp"
+                    android:paddingBottom="7dp"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/save_button_text" />
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancel_button_text" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

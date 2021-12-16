@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ToDoMGDRefactor</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">To Do List</string>
+    <string name="second_fragment_label">Save To Do</string>
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+
+    <string name="default_task_title">TaskTitle</string>
+    <string name="save_button_text">Save</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="remind_me_date_hint_text">Remind Me Date</string>
+    <string name="remind_me_checkbox_text">Remind Me</string>
+    <string name="due_date_text_hint">Due Date</string>
+    <string name="task_description_text_hint">Task Description</string>
+    <string name="task_title_text_hint">Task Title</string>
+    <string name="default_description">Description of the task.</string>
+    <string name="default_tag">School</string>
+    <string name="default_due_date">1/1/2000</string>
+    <string name="default_remind_me_date">1/1/2000</string>
+    <string name="date_picker_set_text">Set</string>
+    <string name="date_picker_cancel_text">Cancel</string>
+    <string name="channel_name">RemindMeWorker_Channel</string>
+    <string name="channel_description">Notificaiton channel for ToDoApp</string>
+    <string name="action_filter">Filter</string>
+    <string name="filter_dialog_title">Filter</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="saved_tags_key">saved_tags</string>
+    <string name="add_location">Add Location</string>
+    <string name="task_location_text_hint">Location</string>
+    <string name="maps_button_text">Open In Maps</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="tags">Tags</string>
+    <string name="due_date">Due Date</string>
+    <string name="remind_me_date">Remind Me Date</string>
+</resources>

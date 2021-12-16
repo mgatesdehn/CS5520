@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable name="name" type="String"/>
+    </data>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pill_button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:fontFamily="@font/roboto_mono_bold"
+        android:minWidth="1dp"
+        android:minHeight="1dp"
+        android:text="@={name}"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:textColor="@color/pill_text"
+        app:cornerRadius="18dp"
+        android:backgroundTint="@color/pill_tint"
+        android:includeFontPadding="false"/>
+</layout>
